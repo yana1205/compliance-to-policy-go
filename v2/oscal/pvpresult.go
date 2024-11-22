@@ -3,7 +3,7 @@ package oscal
 import (
 	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
 
-	proto "github.com/oscal-compass/compliance-to-policy-go/v2/api/proto/v1alpha1"
+	proto "github.com/yana1205/compliance-to-policy-go/v2/api/proto/v1alpha1"
 )
 
 type PVPResult struct {

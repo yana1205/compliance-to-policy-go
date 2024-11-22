@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/go-hclog"
 	hplugin "github.com/hashicorp/go-plugin"
 
-	"github.com/oscal-compass/compliance-to-policy-go/v2/providers"
+	"github.com/yana1205/compliance-to-policy-go/v2/providers"
 )
 
 const pluginDir = "./plugin-dir"

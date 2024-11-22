@@ -3,7 +3,7 @@ package oscal
 import (
 	"time"
 
-	proto "github.com/oscal-compass/compliance-to-policy-go/v2/api/proto/v1alpha1"
+	proto "github.com/yana1205/compliance-to-policy-go/v2/api/proto/v1alpha1"
 )
 
 // Result represents the kind of result statuses.

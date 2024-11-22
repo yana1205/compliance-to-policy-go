@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package protocols;
-option go_package = "github.com/oscal-compass/compliance-to-policy-go/v2/api/proto/v1alpha1/";
+option go_package = "github.com/yana1205/compliance-to-policy-go/v2/api/proto/v1alpha1/";
 import "api/proto/v1alpha1/messages.proto";
 
 service GenerationEngine {

@@ -4,9 +4,9 @@ import (
 	"context"
 	"encoding/json"
 
-	proto "github.com/oscal-compass/compliance-to-policy-go/v2/api/proto/v1alpha1"
-	"github.com/oscal-compass/compliance-to-policy-go/v2/oscal"
-	"github.com/oscal-compass/compliance-to-policy-go/v2/providers"
+	proto "github.com/yana1205/compliance-to-policy-go/v2/api/proto/v1alpha1"
+	"github.com/yana1205/compliance-to-policy-go/v2/oscal"
+	"github.com/yana1205/compliance-to-policy-go/v2/providers"
 )
 
 // Client must return an implementation of the corresponding interface that communicates

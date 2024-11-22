@@ -12,8 +12,8 @@ import (
 	"github.com/oscal-compass/oscal-sdk-go/generators"
 	"github.com/oscal-compass/oscal-sdk-go/rules"
 
-	"github.com/oscal-compass/compliance-to-policy-go/v2/oscal"
-	"github.com/oscal-compass/compliance-to-policy-go/v2/plugin"
+	"github.com/yana1205/compliance-to-policy-go/v2/oscal"
+	"github.com/yana1205/compliance-to-policy-go/v2/plugin"
 )
 
 func run() error {

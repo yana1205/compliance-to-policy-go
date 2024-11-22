@@ -3,8 +3,8 @@ package plugin
 import (
 	"context"
 
-	proto "github.com/oscal-compass/compliance-to-policy-go/v2/api/proto/v1alpha1"
-	"github.com/oscal-compass/compliance-to-policy-go/v2/providers"
+	proto "github.com/yana1205/compliance-to-policy-go/v2/api/proto/v1alpha1"
+	"github.com/yana1205/compliance-to-policy-go/v2/providers"
 )
 
 // Plugin must return an RPC server for this plugin type.

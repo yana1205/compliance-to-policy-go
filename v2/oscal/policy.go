@@ -3,7 +3,7 @@ package oscal
 import (
 	"fmt"
 
-	proto "github.com/oscal-compass/compliance-to-policy-go/v2/api/proto/v1alpha1"
+	proto "github.com/yana1205/compliance-to-policy-go/v2/api/proto/v1alpha1"
 
 	. "github.com/oscal-compass/oscal-sdk-go/extensions"
 )

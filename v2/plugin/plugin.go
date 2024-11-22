@@ -6,8 +6,8 @@ import (
 	"github.com/hashicorp/go-plugin"
 	"google.golang.org/grpc"
 
-	proto "github.com/oscal-compass/compliance-to-policy-go/v2/api/proto/v1alpha1"
-	"github.com/oscal-compass/compliance-to-policy-go/v2/providers"
+	proto "github.com/yana1205/compliance-to-policy-go/v2/api/proto/v1alpha1"
+	"github.com/yana1205/compliance-to-policy-go/v2/providers"
 )
 
 // Handshake is a common handshake that is shared by plugin and host.

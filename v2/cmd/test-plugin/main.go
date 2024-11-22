@@ -6,9 +6,9 @@ import (
 
 	hplugin "github.com/hashicorp/go-plugin"
 
-	"github.com/oscal-compass/compliance-to-policy-go/v2/oscal"
-	"github.com/oscal-compass/compliance-to-policy-go/v2/plugin"
-	"github.com/oscal-compass/compliance-to-policy-go/v2/providers"
+	"github.com/yana1205/compliance-to-policy-go/v2/oscal"
+	"github.com/yana1205/compliance-to-policy-go/v2/plugin"
+	"github.com/yana1205/compliance-to-policy-go/v2/providers"
 )
 
 var _ providers.PolicyProvider = (*MyExamplePlugin)(nil)
