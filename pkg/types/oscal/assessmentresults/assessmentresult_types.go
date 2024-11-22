@@ -19,7 +19,7 @@ package assessmentresults
 import (
 	"time"
 
-	"github.com/oscal-compass/compliance-to-policy-go/pkg/types/oscal/common"
+	"github.com/yana1205/compliance-to-policy-go/pkg/types/oscal/common"
 )
 
 type Metadata struct {

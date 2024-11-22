@@ -24,12 +24,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/oscal-compass/compliance-to-policy-go/pkg"
-	"github.com/oscal-compass/compliance-to-policy-go/pkg/tables/resources"
-	"github.com/oscal-compass/compliance-to-policy-go/pkg/types/internalcompliance"
-	"github.com/oscal-compass/compliance-to-policy-go/pkg/types/oscal"
-	cd "github.com/oscal-compass/compliance-to-policy-go/pkg/types/oscal/componentdefinition"
 	"github.com/stretchr/testify/assert"
+	"github.com/yana1205/compliance-to-policy-go/pkg"
+	"github.com/yana1205/compliance-to-policy-go/pkg/tables/resources"
+	"github.com/yana1205/compliance-to-policy-go/pkg/types/internalcompliance"
+	"github.com/yana1205/compliance-to-policy-go/pkg/types/oscal"
+	cd "github.com/yana1205/compliance-to-policy-go/pkg/types/oscal/componentdefinition"
 )
 
 func init() {
@@ -106,7 +106,7 @@ func TestTrestleCsv(t *testing.T) {
 		ComponentDescription: "Description ...",
 		ComponentType:        "Service",
 	}
-	namespace := "https://github.com/oscal-compass/compliance-to-policy/go"
+	namespace := "https://github.com/yana1205/compliance-to-policy/go"
 	trestlCsvRowsMap := makeTrestleCsvFromMasterData(componentProps, namespace, resourceTable)
 	t.Log(trestlCsvRowsMap)
 

@@ -22,7 +22,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/oscal-compass/compliance-to-policy-go/cmd/parse/modules"
+	"github.com/yana1205/compliance-to-policy-go/cmd/parse/modules"
 )
 
 var TARGETS = []string{

@@ -22,10 +22,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/oscal-compass/compliance-to-policy-go/pkg"
-	typec2pcr "github.com/oscal-compass/compliance-to-policy-go/pkg/types/c2pcr"
-	typear "github.com/oscal-compass/compliance-to-policy-go/pkg/types/oscal/assessmentresults"
 	"github.com/stretchr/testify/assert"
+	"github.com/yana1205/compliance-to-policy-go/pkg"
+	typec2pcr "github.com/yana1205/compliance-to-policy-go/pkg/types/c2pcr"
+	typear "github.com/yana1205/compliance-to-policy-go/pkg/types/oscal/assessmentresults"
 )
 
 func TestResult2Oscal(t *testing.T) {

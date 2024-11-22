@@ -21,12 +21,12 @@ import (
 	"os"
 
 	"github.com/go-logr/logr"
-	compliancetopolicycontrollerv1alpha1 "github.com/oscal-compass/compliance-to-policy-go/api/v1alpha1"
-	"github.com/oscal-compass/compliance-to-policy-go/controllers/composer"
-	"github.com/oscal-compass/compliance-to-policy-go/controllers/utils"
-	"github.com/oscal-compass/compliance-to-policy-go/controllers/utils/gitrepo"
-	"github.com/oscal-compass/compliance-to-policy-go/pkg"
 	cp "github.com/otiai10/copy"
+	compliancetopolicycontrollerv1alpha1 "github.com/yana1205/compliance-to-policy-go/api/v1alpha1"
+	"github.com/yana1205/compliance-to-policy-go/controllers/composer"
+	"github.com/yana1205/compliance-to-policy-go/controllers/utils"
+	"github.com/yana1205/compliance-to-policy-go/controllers/utils/gitrepo"
+	"github.com/yana1205/compliance-to-policy-go/pkg"
 	ctrl "sigs.k8s.io/controller-runtime"
 )
 

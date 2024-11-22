@@ -19,10 +19,10 @@ package kyverno
 import (
 	"fmt"
 
-	"github.com/oscal-compass/compliance-to-policy-go/pkg"
-	"github.com/oscal-compass/compliance-to-policy-go/pkg/kyverno"
 	cp "github.com/otiai10/copy"
 	"github.com/spf13/cobra"
+	"github.com/yana1205/compliance-to-policy-go/pkg"
+	"github.com/yana1205/compliance-to-policy-go/pkg/kyverno"
 	"go.uber.org/zap"
 )
 

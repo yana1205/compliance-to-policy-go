@@ -2,7 +2,7 @@
 
 ### Continuous Compliance by C2P 
 
-https://github.com/oscal-compass/compliance-to-policy/assets/113283236/4b0b5357-4025-46c8-8d88-1f4c00538795
+https://github.com/yana1205/compliance-to-policy/assets/113283236/4b0b5357-4025-46c8-8d88-1f4c00538795
 
 ### Usage of C2P CLI
 ```

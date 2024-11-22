@@ -20,9 +20,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/oscal-compass/compliance-to-policy-go/pkg"
-	typec2pcr "github.com/oscal-compass/compliance-to-policy-go/pkg/types/c2pcr"
 	"github.com/stretchr/testify/assert"
+	"github.com/yana1205/compliance-to-policy-go/pkg"
+	typec2pcr "github.com/yana1205/compliance-to-policy-go/pkg/types/c2pcr"
 )
 
 func TestOscal2Policy(t *testing.T) {

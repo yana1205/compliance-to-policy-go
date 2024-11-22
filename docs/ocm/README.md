@@ -29,7 +29,7 @@ Use "c2pcli ocm [command] --help" for more information about a command.
 
 #### Outline
 1. Create OSCAL Component Definition
-    - Use example one. In real cases, a user writes OSCAL by Authoring tool like [Trestle](https://github.com/oscal-compass/compliance-trestle))
+    - Use example one. In real cases, a user writes OSCAL by Authoring tool like [Trestle](https://github.com/yana1205/compliance-trestle))
 1. Run oscal2policy to generate OCM Policies from OSCAL
 1. Deploy generated OCM Policies to OCM Hub
 1. Get OCM Policies from OCM Hub
