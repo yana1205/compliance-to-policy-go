@@ -1,0 +1,13 @@
+# .goreleaser.yaml
+builds:
+- id: c2p-v2
+  main: ./cmd/test-cli
+  binary: c2p-v2
+  goos:
+  - darwin
+  goarch:
+  - arm64
+
+release:
+  disable: false
+  skip_upload: false
